@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+</head>
+<body>
+    <form action="">
+        <!-- fieldset 테두리 생성 legend 제목 -->
+        <fieldset>
+            <legend>gender</legend>
+            <p>choose your gender</p>
+            <!-- radio 타입 버튼은 name 속성을 하나로 한다 -->
+            
+            <label><input type="radio" name="gender" checked>남성</label>
+            <label><input type="radio" name="gender">여성</label>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>hobby</legend>
+            <p>check your hobby (can choose more then 1)</p>
+            <!-- radio 타입 버튼은 name 속성을 하나로 한다 -->
+            
+            <label><input type="checkbox" name="hobby" value="read">독서</label>
+            <label><input type="checkbox" name="hobby" value="movie">영화감상</label>
+            <label><input type="checkbox" name="hobby" value="game">게임</label>
+            
+        </fieldset>
+
+        <div>
+            <input type="submit" value="sign in">
+        </div>
+    </form>
+</body>
+</html>
