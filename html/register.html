@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/register.css" type="text/css">
+</head>
+<body>
+    <div id="containter">
+        <form action="/register" method="post">
+            <fieldset>
+                <legend>수강 신청</legend>
+                <ul>
+                    <li>
+                        <label class="clearfix" for="classid">학과번호</label>
+                        <input type="text" id="classid" name="classid">
+                    </li>
+                    <li>
+                        <label class="clearfix" for="major">학과</label>
+                        <select name="major" id="major">
+                            <optgroup label="공과대학">
+                                <option value="software" selected>소프트웨어학과</option>
+                                <option value="electronic">전자공학과</option>
+                                <option value="architect">건축공학과</option>
+                            </optgroup>
+                            <optgroup label="경영대학">
+                                <option value="management">경영학과</option>
+                                <option value="eco">경제학과</option>
+                                <option value="calculate">회계학</option>
+                            </optgroup>
+                            
+                        </select>
+                    </li>
+                </ul>
+            </fieldset>
+            <div>
+                <button type="submit">신청하기</button>
+                <button type="reset">취소하기</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
