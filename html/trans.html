@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div img{
+            width:200px;
+            transform: skewY(20deg);
+            float:left;
+            margin-top:100px;
+            margin-left:50px;
+        }
+        div img:nth-child(1){
+            z-index: 1;
+        }
+        div img:nth-child(2){
+            z-index: 2;
+        }
+        div img:nth-child(3){
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="image/purple.jpg" alt="purple">
+        <img src="image/purple.jpg" alt="purple">
+        <img src="image/purple.jpg" alt="purple">
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        1. 변수(학생 3명의 성적)
+            이름이 다르고 많음
+            메모리상에서 흩어져 있다
+        */
+       /*
+        2. 배열
+            이름이 하나
+            메모리에 연속적인 공간을 차지
+            배열의 선언(대괄호 사용)
+            자료형 배열 이름 = []
+            값에 접근할때 인덱스(위치) 사용
+        */
+
+        /*let std = [70, 80, 90];
+
+        console.log(std[0]);
+        console.log(std[1]);
+        console.log(std[2]);*/
+
+        /*let cart = ["1", "2", "3"]
+
+        document.write(cart.length);*/
+
+        let seasons = [];
+
+        seasons[0] = "spring";
+        seasons[1] = "summer";
+        seasons[2] = "autumn";
+        seasons[3] = "winter";
+
+        for(let i=0; i < seasons.length; i++){
+            document.write(seasons[i]);
+        }
+
+
+        
+    </script>
+</body>
+</html>

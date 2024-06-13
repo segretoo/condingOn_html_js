@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+        /*let num = 11;
+        
+        if(num % 2 === 0){
+            document.write("짝수입니다")
+
+        }else{
+            document.write("홀수입니다")
+        }
+        document.write("수는", num, "입니다")*/
+
+        let a = Number(prompt("숫자를 입력하세요"));
+
+        a = Number(a);
+
+        if(a>=0 || a<0){
+            if(a===0){
+                alert('0은 홀짝 구분 불가')
+            }else{
+                a=a%2
+                if(a===1){
+                    alert('홀수')
+                }else{
+                    alert('짝수')
+                }
+            }
+        }else{
+            alert('숫자가 아님')
+        }
+   </script> 
+</body>
+</html>

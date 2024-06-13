@@ -3,23 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>codingOn Shoppingmall</title>
+    
+    <!-- title -->
+    <title>shopOn</title>
+
+    <!-- js -->
+    <script src="js/jquery-3.6.4.min.js" type="text/javascript" text="javascript"></script>
+    <script src="js/main.js" type="text/javascript" text="javascript"></script>
+
+    <!-- css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-    <!-- 시멘틱(semantic) 태그 -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="product.html">Product</a>
-        <a href="board.html">Board</a>
-    </nav>
+    <div class="wrap">
+        <!-- header_wrap start -->
+        <div class="header_wrap">
+            <header class="clearfix">
+                <!-- logo start -->
+                <div class="logo">
+                    <h1><a href="./index.html">shopOn</a></h1>
+                </div>
+                <!-- logo finish -->
+                <!-- nav start -->
+                <div class="bg_sub"></div>
 
-    <div>
-        <h1>쇼핑몰에 오신 것을 환영합니다.</h1>
-
-        <!-- 절대 경로 (맨 위 상위경로로부터 시작) -->
-        <!-- <img src="/shop/img/store.png" alt="shopping"> -->
-        <!-- 절대 경로 (자기 기준으로 배치) 점(.)이 한개 같은 계층, 점이 두개이면 -->
-        <img src="./img/store.png" alt="shopping">
+                <div class="nav_wrap">
+                    <nav>
+                        <ul class="clearfix gnb">
+                            <li>
+                                <a hef="#">홈</a>
+                            </li>
+                            <li>
+                                <a href="#">상품소개</a>
+                                <ul>
+                                    <li><a href="#">101호</a></li>
+                                    <li><a href="#">102호</a></li>
+                                    <li><a href="#">103호</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">게시판</a>
+                                <ul>
+                                    <li><a href="#">201호</a></li>
+                                    <li><a href="#">202호</a></li>
+                                    <li><a href="#">203호</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">로그인</a>
+                                <ul>
+                                    <li><a href="#">301호</a></li>
+                                    <li><a href="#">302호</a></li>
+                                    <li><a href="#">303호</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- nav finish -->
+            </header>
+        </div>
+        <!-- header_wrap finish -->
+        <section>
+            <article>
+                <div class="main">
+                    <h1>쇼핑몰에 오신 것을 환영합니다.</h1>
+            
+                    <!-- 절대 경로 (맨 위 상위경로로부터 시작) -->
+                    <!-- <img src="/shop/img/store.png" alt="shopping"> -->
+                    <!-- 절대 경로 (자기 기준으로 배치) 점(.)이 한개 같은 계층, 점이 두개이면 -->
+                    <img src="./img/store.png" alt="shopping">
+                </div>
+            </article>
+        </section>
+        <!-- slider_wrap finish -->
+        <div class="footer_wrap">
+            <footer>
+                <ul class="clearfix">
+                    <li>카페 소개</li>
+                    <li>개인정보 처리방침</li>
+                    <li>이용 약관</li>
+                    <li>사이트맵</li>
+                </ul>
+            </footer>
+        </div>
     </div>
 </body>
 </html>

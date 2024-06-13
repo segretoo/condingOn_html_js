@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학점 처리</title>
+</head>
+<body>
+    <script>
+        /* 90~100 - A
+            80~89 - B
+            70~879 - C
+            60~59 - D
+            ~59 - F */
+
+        let score = (prompt());
+        let grade = "";
+
+        if(score >= 0 && score <= 100){
+                if(score >=90 && score <= 100){
+                document.write(grade + "A학점")
+            }else if(score >=80 && score <= 89){
+                document.write(grade + "B학점")
+            }else if(score >=70 && score <= 79){
+                document.write(grade + "C학점")
+            }else if(score >=60 && score <= 69){
+                document.write(grade + "D학점")
+            }else{
+                document.write(grade + "F학점")
+            }
+        }else{
+            document.write("성적이 없습니다")
+        }
+    </script>
+</body>
+</html>
